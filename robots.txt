@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mailer
+Host: ch-guseynov.ru
+Sitemap: http://ch-guseynov.ru//sitemap.xml
