@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+	<title>Sheily</title>
+
+	<!--=== Main Style CSS ===-->
+	<link rel="stylesheet" href="assets/css/css/style.min.css">
+</head>
+
+<body>
+	<!--== Start Header Area ===-->
+	<header id="header" class="sticky-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="sticky-header__wrapper d-flex align-items-center">
+
+						<!-- Start Logo Area -->
+						<div class="bg-color_logo-area"></div>
+						<div class="sticky-header__left-area d-flex align-items-center">
+							<a href="index.html"><img src="assets/img/icons/logo.svg" alt="logo"></a>
+						</div>
+						<!-- End Logo Area -->
+
+						<!-- Start Main Menu -->
+						<div class="sticky-header__mainmenu-area d-none d-lg-block">
+							<nav id="mainmenu-wrap">
+								<ul class="nav mainmenu">
+									<li class="dropdown-show"><a href="archive.html">Пальто</a>
+										<ul class="dropdown-nav">
+											<li><a href="#">Тренчкоты</a></li>
+											<li><a href="#">Пальто халаты</a></li>
+											<li><a href="#">Английское пальто</a></li>
+											<li><a href="#">Пальто укороченные</a></li>
+											<li><a href="#">Пальто длинное</a></li>
+											<li><a href="#">Пальто с мехом</a></li>
+										</ul>
+									</li>
+									<li><a href="delivery.html">Доставка и оплата</a></li>
+									<li><a href="location.html">Шоурум в Москве</a></li>
+									<li><a href="blog.html">Блог</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- End Main Menu -->
+
+						<!-- Start Main Menu Icons -->
+						<div class="sticky-header__right-area d-flex justify-content-between align-items-center">
+
+
+							<!-- side menu -->
+							<div class="side-menu right mobile-left-align">
+								<div class="nav-inner">
+									<div class="nav-search-wrap hidden-sm hidden-xs right">
+										<a href="#" class="nav-search search-trigger">
+											<img src="./assets/img/icons/search.svg" alt="search">
+										</a>
+									</div>
+								</div>
+							</div> <!-- end side menu -->
+
+							<!-- Fullscreen search -->
+							<div class="search-wrap">
+								<div class="search-inner">
+									<div class="search-cell">
+										<form method="get">
+											<div class="search-field-holder">
+												<input type="search" class="form-control main-search-input"
+													placeholder="Найти что-то...">
+												<div class="search-submit-icon"><img src="./assets/img/icons/search.svg"
+														alt="search">
+												</div>
+												<input type="submit" class="search-submit" value="search">
+											</div>
+										</form>
+									</div>
+								</div>
+								<img class="search-close" id="search-close" src="./assets/img/icons/close.svg"
+									alt="close">
+							</div>
+							<!-- end fullscreen search -->
+
+
+							<button>
+								<a href="account.html"><img src="./assets/img/icons/user.svg" alt="user"></a>
+							</button>
+
+							<button class="mini-cart-icon modalActive" data-mfp-src="#miniCart-popup">
+								<img src="./assets/img/icons/cart.svg" alt="cart">
+								<span class="cart-count">3</span>
+							</button>
+						</div>
+						<!-- End Main Menu Icons -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--== End Header Area ===-->
+
+	<!-- Start Page Header Wrapper -->
+	<section class="page-header-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div>
+						<nav>
+							<ul class="page-header-wrapper__breadcrumb d-flex justify-content-start">
+								<li><a href="index.html">Главная / </a></li>
+								<li><a href="index.html">Каталог / </a></li>
+								<li><a href="index.html" class="active">Название товара</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Page Header Wrapper -->
+
+	<!--== Start Single Product Page Wrapper ==-->
+	<section id="single-product-page" class="single-product-page single-product-page-mt-40">
+		<div class="container">
+			<div class="row row-mini">
+				<!-- Start Single Product Thumbnail -->
+				<div class="col-lg-8">
+					<div class="single-product-page__thumb-wrap tab-style-left">
+						<!-- Product Thumbnail Large View -->
+						<div class="product-thumb-large-view">
+							<div class="product-thumb-carousel vertical-tab">
+								<figure class="product-thumb-item">
+									<img src="assets/img/product-banner/england-palto.jpg" alt="Single Product" />
+								</figure>
+								<figure class="product-thumb-item">
+									<img src="assets/img//product-banner/long-palto.jpg" alt="Single Product" />
+								</figure>
+								<figure class="product-thumb-item">
+									<img src="assets/img/product-banner/short-palto.jpg" alt="Single Product" />
+								</figure>
+							</div>
+						</div>
+
+						<!-- Product Thumbnail Nav -->
+						<div class="vertical-tab-nav">
+							<figure class="product-thumb-item">
+								<img src="assets/img/product-banner/palto-halat.jpg" alt="Single Product" />
+							</figure>
+							<figure class="product-thumb-item">
+								<img src="assets/img/product-banner/fur-palto.jpg" alt="Single Product" />
+							</figure>
+							<figure class="product-thumb-item mb-0">
+								<img src="assets/img/product-banner/trenchkot.jpg" alt="Single Product" />
+							</figure>
+						</div>
+					</div>
+				</div>
+				<!-- End Single Product Thumbnail -->
+
+				<!-- Start Single Product Content -->
+				<div class="col-lg-4">
+					<div class="single-product-page__details">
+						<h2 class="single-product-page__name">тренчкот серый 100см</h2>
+						<div class="single-product-page__stock-article-wrapper">
+							<span class="single-product-page__stock-status"><img src="./assets/img/icons/nalich.svg"
+									alt="nalich"> В
+								наличии</span>
+							<span class="single-product-page__article">Артикул: 103226</span>
+						</div>
+
+						<!-- Start Double Sidebar -->
+						<div class="single-product-page__btn-color-block">
+							<h3 class="single-product-page__sidebar-title">Размер</h3>
+							<div class="single-product-page__wrapper">
+								<ul>
+									<li class="single-product-page__size-block-btn active"><a href="#">xs</a></li>
+									<li class="single-product-page__size-block-btn"><a href="#">s</a></li>
+									<li class="single-product-page__size-block-btn"><a href="#">m</a></li>
+									<li class="single-product-page__size-block-btn"><a href="#">l</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Double Sidebar -->
+
+						<div class="single-product-page__tab-sazing"><a href="#">Таблица размеров</a></div>
+
+						<div class="single-product-page__season">
+							<h3 class="single-product-page__sidebar-title">Сезон</h3>
+							<ul>
+								<li><a href="#">Зима</a></li>
+								<li><a href="#">Осень / Весна</a></li>
+							</ul>
+						</div>
+
+						<div class="single-product-page__colors-btn">
+							<h3 class="single-product-page__title">Цвет</h3>
+							<ul>
+								<li class="single-product-page__color-block"><a href="#"></a></li>
+								<li class="single-product-page__color-block"><a href="#"></a></li>
+								<li class="single-product-page__color-block"><a href="#"></a></li>
+								<li class="single-product-page__color-block"><a href="#"></a></li>
+								<li class="single-product-page__color-block"><a href="#"></a></li>
+							</ul>
+						</div>
+
+						<div class="single-product-page__prices-group">
+							<span class="single-product-page__price">4000 руб.</span>
+							<del class="single-product-page__old-price">5000 руб.</del>
+						</div>
+
+						<div class="single-product-page__btn-cart">
+							<a href="cart.html">Добавить в корзину</a>
+						</div>
+
+						<!-- Product Description Tab Menu -->
+						<div class="product-review product-review_top-30">
+							<ul class="product-review__wrapper">
+								<li class="product-review__item">
+									<input type="checkbox" checked>
+									<i class="product-review__plus"></i>
+									<h2 class="product-review__title">Описание</h2>
+									<p class="product-review__descr">
+										Длина по спинке: 100
+										Обхват груди: 80-84
+										Обхват талии: 62-66
+										Обхват бедер: 88-92
+									</p>
+								</li>
+							</ul>
+							<ul>
+								<li class="product-review__item">
+									<input type="checkbox" checked>
+									<i class="product-review__plus"></i>
+									<h2 class="product-review__title">Описание</h2>
+									<p class="product-review__descr">
+										Длина по спинке: 100
+										Обхват груди: 80-84
+										Обхват талии: 62-66
+										Обхват бедер: 88-92
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- End Single Product Content -->
+			</div>
+		</div>
+	</section>
+	<!--== End Single Product Page Wrapper ==-->
+
+	<!--== Start Related Products Area ==-->
+	<section id="related-products-wrapper" class="related-products-wrapper">
+		<div class="container">
+			<div class="row ">
+				<!-- Start Section title -->
+				<div class="col-lg-12">
+					<h3 class="title-divider">ВОЗМОЖНО, ВАМ ПОНРАВИТСЯ</h3">
+				</div>
+				<!-- End Section title -->
+			</div>
+
+			<div class="products-area">
+				<div class="row row-mini">
+					<!-- Start Single Product -->
+					<div class="col-lg-4">
+						<div class="single-product">
+							<div class="single-product__wrapper">
+								<!-- Product Thumbnail -->
+								<figure class="single-product__thumbnail">
+									<a href="single-product.html">
+										<img class="single-product__primary-thumb"
+											src="assets/img/product-banner/england-palto.jpg" alt="Product" />
+										<img class="single-product__secondary-thumb"
+											src="assets/img/product-banner/palto-halat.jpg" alt="Product" />
+									</a>
+									<figcaption class="single-product__hvr-content">
+										<a href="cart.html" class="btn btn-primary btn-addToCart">Добавить в корзину</a>
+
+										<span class="single-product__badge sale">-20%</span>
+									</figcaption>
+								</figure>
+								<!-- Product Details -->
+								<div class="single-product__details">
+									<h2><a class="single-product__name" href="single-product.html">Тренчкот серый
+											100см</a>
+									</h2>
+									<div class="single-product__prices">
+										<span class="price">4000 руб.</span>
+										<del class="oldPrice">5000 руб.</del>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Product -->
+
+					<!-- Start Single Product -->
+					<div class="col-lg-4">
+						<div class="single-product">
+							<div class="single-product__wrapper">
+								<!-- Product Thumbnail -->
+								<figure class="single-product__thumbnail">
+									<a href="single-product.html">
+										<img class="single-product__primary-thumb"
+											src="assets/img/product-banner/long-palto.jpg" alt="Product" />
+										<img class="single-product__secondary-thumb"
+											src="assets/img/product-banner/palto-halat.jpg" alt="Product" />
+									</a>
+									<figcaption class="single-product__hvr-content">
+										<button href="cart.html" class="btn btn-primary btn-addToCart">Добавить в корзину</button>
+										<span class="single-product__badge sale">-20%</span>
+									</figcaption>
+								</figure>
+								<!-- Product Details -->
+								<div class="single-product__details">
+									<h2><a class="single-product__name" href="single-product.html">Тренчкот серый
+											100см</a>
+									</h2>
+									<div class="single-product__prices">
+										<span class="price">4000 руб.</span>
+										<del class="oldPrice">5000 руб.</del>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Product -->
+
+					<!-- Start Single Product -->
+					<div class="col-lg-4">
+						<div class="single-product">
+							<div class="single-product__wrapper">
+								<!-- Product Thumbnail -->
+								<figure class="single-product__thumbnail">
+									<a href="single-product.html">
+										<img class="single-product__primary-thumb"
+											src="assets/img/product-banner/long-palto.jpg" alt="Product" />
+										<img class="single-product__secondary-thumb"
+											src="assets/img/product-banner/palto-halat.jpg" alt="Product" />
+									</a>
+									<figcaption class="single-product__hvr-content">
+										<a href="cart.html" class="btn btn-primary btn-addToCart">Добавить в корзину</a>
+
+										<span class="single-product__badge sale">-20%</span>
+									</figcaption>
+								</figure>
+								<!-- Product Details -->
+								<div class="single-product__details">
+									<h2><a class="single-product__name" href="single-product.html">Тренчкот серый
+											100см</a>
+									</h2>
+									<div class="single-product__prices">
+										<span class="price">4000 руб.</span>
+										<del class="oldPrice">5000 руб.</del>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Product -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End Related Products Area ==-->
+
+	<!--== Start Footer ===-->
+	<footer>
+		<div class="footer-widget-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<h3 class="footer-widget-area__title">О компании</h3>
+						<a href="http://" target="_blank">Шоурумы в Москве</a>
+					</div>
+					<div class="col-lg-3">
+						<h3 class="footer-widget-area__title">Покупателям</h3>
+						<a href="delivery.html" target="_blank">Доставка и оплата / Возврат</a>
+						<a href="privacy-policy.html" target="_blank">Политика конфиденциальности</a>
+					</div>
+					<div class="col-lg-3">
+						<h3 class="footer-widget-area__title">Задайте вопрос
+						</h3>
+						<a href="http://" target="_blank">WhatsApp</a>
+						<a href="http://" target="_blank">Эл. почта</a>
+						<a href="http://" target="_blank">instagram</a>
+					</div>
+					<div class="col-lg-3">
+						<h3 class="footer-widget-area__title">Личный кабинет</h3>
+						<a href="http://" target="_blank">Войти</a>
+						<a href="http://" target="_blank">Корзина</a>
+					</div>
+					<div class="col-lg-12">
+						<div class="contacts_position-center">
+							<a href="tel:+74951317065" class="phone">+7 (495) 131 70 65</a>
+							<a href="https://www.whatsapp.com/" target="_blank">
+								<img src="./assets/img/icons/whatsapp.svg" alt="instagram">
+							</a>
+							<a href="https://www.instagram.com/" target="_blank">
+								<img src="./assets/img/icons/instagram.svg" alt="instagram">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--== End Footer===-->
+
+
+	<!--=======================Javascript============================-->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
