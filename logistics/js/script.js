@@ -27,8 +27,8 @@ $(document).ready(function () {
 		centerPadding: '10px',
 		slidesToShow: 3,
 		speed: 300,
-		prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prev.svg"></img></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../icons/next.svg"></img></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prev.png"></img></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="../icons/next.png"></img></button>',
 		responsive: [
 			{
 				breakpoint: 992,
