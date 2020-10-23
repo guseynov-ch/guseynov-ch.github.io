@@ -1,0 +1,28 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 29px;
+        text-align: center;
+    }
+    &__icon {
+        height: 57px;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 900;
+        color: #ec644b;
+        margin-top: 12px;
+    }
+    &__descr {
+        display: inline-block;
+        max-width: 230px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #3a3a3a;
+        margin-top: 5px;
+    }
+
+}

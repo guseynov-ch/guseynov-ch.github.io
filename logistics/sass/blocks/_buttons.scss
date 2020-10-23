@@ -1,0 +1,40 @@
+.button {
+	width: 160px;
+	height: 45px;
+	border-radius: 30px;
+	border: none;
+	background-color: #ec644b;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #fff;
+
+
+	&_main {
+		margin-top: 44px;
+		width: 230px;
+		height: 57px;
+		font-size: 15px;
+	}
+
+	&_price {
+		margin-top: 25px;
+		width: 160px;
+		height: 45px;
+		font-size: 12px;
+	}
+
+	&_contact-form {
+		position: absolute;
+		margin-top: 84px;
+		width: 180px;
+		height: 45px;
+		box-shadow: 0 0 0 10px rgb(255, 255, 255); 
+	}
+
+	&_questions {
+		position: relative;
+		box-shadow: none;
+	}
+}
